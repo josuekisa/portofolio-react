@@ -54,7 +54,7 @@ function Navbar() {
             className={
                 !nav ? 'hidden' 
                 : ' absolute top-0 left-0 w-full h-screen bg-[#000000] flex flex-col justify-center items-center'}>
-                <li  className=""ClassName='py-6 text-5xl'><Link onClick={handleclick} to="home"  smooth={true} duration={500} >
+                <li  ClassName='py-6 text-5xl'><Link onClick={handleclick} to="home"  smooth={true} duration={500} >
                        Acceuil
                      </Link></li>
                 <li ClassName='py-6 text-4xl'><Link onClick={handleclick} to="about"  smooth={true} duration={500} >

@@ -10,7 +10,7 @@ const Competences = () => {
   return (
     <div name='competences' className='w-full h-screen bg-[#000000] text-gray-300'>
        {/** Container */}
-       <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
+       <div className='static max-w-[1000px] mx-auto p-2 flex flex-col justify-center w-full h-full'>
         <div>
             <p className='text-4xl font-bold inline border-b-4 border-yellow-300 '>Compétences </p>
             <p className='py-4'> Voici les langages que j'apprends actuellement en autodidacte.</p>
